@@ -1,0 +1,109 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.wrapper {
+  max-width: 800px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 100px;
+}
+.main__container {
+  background-color: blanchedalmond;
+  padding: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+div .main__container {
+  margin-bottom: 50px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.notes__input {
+  background-color: blanchedalmond;
+  width: 100%;
+  min-height: 70px;
+  font-size: 30px;
+}
+.notes__info {
+  min-height: 50px;
+}
+
+.notes__content {
+  margin-bottom: 20px;
+}
+
+.content {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content__item {
+  display: flex;
+  gap: 20px;
+}
+.condition {
+  display: flex;
+  flex-direction: column;
+}
+.condition__item {
+  font-size: 15px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.blanks {
+  display: flex;
+  flex-direction: column;
+}
+.blanks__item {
+  margin: 17px 0;
+}
+
+.deletes {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+.deletes__item {
+  margin: 16.8px 0;
+  cursor: pointer;
+}
+
+.statuses {
+  display: flex;
+  gap: 5px;
+}
+.statuses__all {
+  min-width: 58px;
+  padding: 5px;
+}
+.statuses__active {
+  min-width: 58px;
+  padding: 5px;
+}
+.statuses__completed {
+  min-width: 58px;
+  padding: 5px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.info__count {
+  margin: 20px 0;
+}
+.test {
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */

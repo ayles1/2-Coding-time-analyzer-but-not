@@ -1,0 +1,133 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.wrapper {
+  max-width: 800px;
+  height: 100%;
+  margin: 0 auto;
+}
+.main {
+  margin: 100px;
+  &__container {
+    background-color: blanchedalmond;
+    padding: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+}
+div .main__container {
+  margin-bottom: 50px;
+}
+.container {
+  margin: 0 auto;
+}
+.notes {
+  &__container {
+  }
+
+  &__input {
+    background-color: blanchedalmond;
+    width: 100%;
+    min-height: 70px;
+    font-size: 30px;
+  }
+
+  &__info {
+    min-height: 50px;
+  }
+}
+.notes {
+  &__content {
+    margin-bottom: 20px;
+  }
+}
+.content {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &__item {
+    display: flex;
+    gap: 20px;
+  }
+  &__condition {
+  }
+  &__blanks {
+  }
+  &__deletes {
+  }
+}
+.condition {
+  display: flex;
+  flex-direction: column;
+  &__item {
+    font-size: 15px;
+    margin: 20px 0;
+    cursor: pointer;
+  }
+}
+.blanks {
+  display: flex;
+  flex-direction: column;
+  &__item {
+    margin: 17px 0;
+  }
+}
+.deletes {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  &__item {
+    margin: 16.8px 0;
+    cursor: pointer;
+  }
+}
+.statuses {
+  display: flex;
+  gap: 5px;
+
+  &__all {
+    min-width: 58px;
+    padding: 5px;
+  }
+
+  &__active {
+    min-width: 58px;
+    padding: 5px;
+  }
+
+  &__completed {
+    min-width: 58px;
+    padding: 5px;
+  }
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  &__count {
+    margin: 20px 0;
+  }
+  &__statuses {
+  }
+}
+.free-time {
+  &__container {
+  }
+
+  &__text {
+  }
+
+  &__input {
+  }
+}
+.analitycs {
+  &__container {
+  }
+}
+.analytics {
+}
+.test {
+  height: 100px;
+}

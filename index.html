@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding time analyzer</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <div class="main__container container">
+          <div class="notes__container notes">
+            <input
+              name="notesInput"
+              class="notes__input"
+              type="text"
+              placeholder="Input coding theme"
+            />
+
+            <div class="notes__content content">
+              </div>
+            </div>
+            <div class="notes__info info">
+              <div class="info__count">There is 0 notes now</div>
+              <div class="info__statuses statuses">
+                <button class="statuses__all">All</button>
+                <button class="statuses__active">Active</button>
+                <button class="statuses__completed">Completed</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="free-time__container free-time">
+            <div class="free-time__text">
+              How much free-time do you have today?
+            </div>
+            <form action="" class="free-time__input"></form>
+          </div>
+          <div class="analitycs__container analytics">
+            <input type="text" class="test" />
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
